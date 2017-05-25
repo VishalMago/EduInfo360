@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@android:color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent" android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin" android:background="@android:color/white">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:text="AISHE Reports"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:id="@+id/report"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="9dp"
+                android:id="@+id/rep1"
+                android:textSize="16sp"
+                android:text="•AISHE Final Report 2015-16"
+                android:layout_gravity="left"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/colorOrange"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:id="@+id/rep2"
+                android:textSize="16sp"
+                android:text="•AISHE Final Report 2014-15"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorOrange"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:id="@+id/rep3"
+                android:textSize="16sp"
+                android:text="•AISHE Final Report 2013-14"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorOrange"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:id="@+id/rep4"
+                android:textSize="16sp"
+                android:text="•HIGHER EDUCATION STATISTICS AT A GLANCE"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorOrange"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:id="@+id/rep5"
+                android:textSize="16sp"
+                android:text="•AISHE Final Report 2012-13"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorOrange"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:id="@+id/rep6"
+                android:textSize="16sp"
+                android:text="•AISHE Final Report 2011-12"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorOrange"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:id="@+id/rep7"
+                android:textSize="16sp"
+                android:text="•Status of International Students in India for Higher Education"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorOrange"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:textSize="16sp"
+                android:id="@+id/rep8"
+                android:text="•Pilot Report"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorOrange"
+                android:clickable="true"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:id="@+id/rep9"
+                android:textSize="16sp"
+                android:text="•Main Report-2010-11"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorOrange"
+                android:clickable="true"/>
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:id="@+id/rep10"
+                android:textSize="16sp"
+                android:text="•Response in AISHE 2016-17"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorOrange"
+                android:clickable="true"/>
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:paddingBottom="10dp"
+                android:id="@+id/rep11"
+                android:textSize="16sp"
+                android:text="•Indian Standard Classification of Education 2014"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorOrange"
+                android:clickable="true"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

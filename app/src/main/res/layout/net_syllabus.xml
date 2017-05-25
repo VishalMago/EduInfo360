@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+    <TableLayout
+        android:background="@drawable/back"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TableRow>
+
+
+            <TextView
+                android:text="Subject"
+                android:background="@drawable/back"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+
+            <TextView
+                android:background="@drawable/back"
+                android:text="Link"
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:layout_height="fill_parent" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="General Paper \non Teaching \nand Research \nAptitude (Paper -I)"
+                android:background="@drawable/back"
+                android:padding="14dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+
+            <TextView
+                android:background="@drawable/back"
+                android:text="Download"
+                android:id="@+id/texta"
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="Economics / Rural Economics \n/Co-operation / Demography /\n Development Planning/ \nDevelopment Studies\nEconometrics/ \nApplied Economics/\nDevelopment Eco./\nBusiness Economics"
+                android:background="@drawable/back"
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+
+            <TextView
+                android:background="@drawable/back"
+                android:text="Download"
+                android:id="@+id/textb"
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:text="Political Science"
+                android:background="@drawable/back"
+                android:padding="14dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+
+            <TextView
+                android:background="@drawable/back"
+                android:text="Download"
+                android:padding="8dp"
+                android:id="@+id/textab"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:text="Psychology"
+                android:background="@drawable/back"
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+
+            <TextView
+                android:background="@drawable/back"
+                android:text="Download"
+                android:id="@+id/textc"
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:text="Sociology"
+                android:background="@drawable/back"
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+
+            <TextView
+                android:background="@drawable/back"
+                android:text="Download"
+                android:padding="8dp"
+                android:id="@+id/textd"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:text="History"
+                android:background="@drawable/back"
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+
+            <TextView
+                android:background="@drawable/back"
+                android:text="Download"
+                android:id="@+id/texte"
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:text="Anthropology"
+                android:background="@drawable/back"
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+
+            <TextView
+                android:background="@drawable/back"
+                android:text="Download"
+                android:id="@+id/textf"
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:text="Commerce"
+                android:background="@drawable/back"
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+
+            <TextView
+                android:background="@drawable/back"
+                android:text="Download"
+                android:id="@+id/textg"
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+        </TableRow>
+
+
+        <TableRow android:layout_height="fill_parent">
+            <TextView
+                android:text="Education"
+                android:background="@drawable/back"
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+
+            <TextView
+                android:background="@drawable/back"
+                android:text="Download"
+                android:id="@+id/texth"
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:text="Social Work"
+                android:background="@drawable/back"
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+
+            <TextView
+                android:background="@drawable/back"
+                android:text="Download"
+                android:id="@+id/texti"
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+        </TableRow>
+
+
+    </TableLayout>
+    </HorizontalScrollView>
+    </ScrollView>
+
+</LinearLayout>

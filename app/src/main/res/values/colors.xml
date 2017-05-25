@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#808000</color>
+    <color name="colorPrimaryDark">#626200</color>
+    <color name="colorAccent">#D0D050</color>
+    <color name="subhead">#303f9f</color>
+
+    <color name="head">#bc0f0f</color>
+
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="colorBlack">#000000</color>
+
+    <color name="aqua">#E65100</color>
+    <color name="colorOrange">#FF8C00</color>
+</resources>

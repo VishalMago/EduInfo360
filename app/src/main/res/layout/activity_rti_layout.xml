@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@android:color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent" android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin" android:background="@android:color/white">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:text="RTI"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorAccent"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="9dp"
+                android:textSize="16sp"
+                android:text="•RTI Online"
+                android:layout_gravity="left"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/colorOrange"
+                android:id="@+id/rti1"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:textSize="16sp"
+                android:text="•Information under Section - 4 of RTI Act, 2005"
+                android:layout_gravity="left"
+                android:textColor="@color/colorOrange"
+                android:layout_marginTop="10dp"
+                android:id="@+id/rti2"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:id="@+id/rti3"
+                android:textSize="16sp"
+                android:text="•RTI Information Service Portal"
+                android:textColor="@color/colorOrange"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:id="@+id/rti4"
+                android:textColor="@color/colorOrange"
+                android:textSize="16sp"
+                android:text="•Details of RTI applications,Appeals and their replies"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:clickable="true"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>

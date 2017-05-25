@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@android:color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent" android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin" android:background="@android:color/white">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:text="Survey Guidelines"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:id="@+id/guide"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="9dp"
+                android:textColor="@color/colorOrange"
+                android:textSize="16sp"
+                android:text="•Guidelines to fill Teacher Information Format(TIF)"
+                android:layout_gravity="left"
+                android:layout_marginTop="25dp"
+                android:id="@+id/sg1"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:textColor="@color/colorOrange"
+                android:id="@+id/sg2"
+                android:textSize="16sp"
+                android:text="•Steps to upload data on AISHE portal from 2016-17 onwards"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:textColor="@color/colorOrange"
+                android:id="@+id/sg3"
+                android:textSize="16sp"
+                android:text="•Quick Reference Guide"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:textColor="@color/colorOrange"
+                android:id="@+id/sg4"
+                android:textSize="16sp"
+                android:text="•Instruction Manual 2014-15"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:textColor="@color/colorOrange"
+                android:textSize="16sp"
+                android:id="@+id/sg5"
+                android:text="•User Manual"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:textColor="@color/colorOrange"
+                android:id="@+id/sg6"
+                android:textSize="16sp"
+                android:text="•Guidelines for Addition of Colleges/Stand Alone Institutions on AISHE portal"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:textColor="@color/colorOrange"
+                android:id="@+id/sg7"
+                android:textSize="16sp"
+                android:text="•Guidelines for University"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:textColor="@color/colorOrange"
+                android:id="@+id/sg8"
+                android:textSize="16sp"
+                android:text="•Guidelines for State Coordinating Agency"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:clickable="true"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:textColor="@color/colorOrange"
+                android:id="@+id/sg9"
+                android:textSize="16sp"
+                android:text="•Guidelines for Colleges and Institutions"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:clickable="true"/>
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:textColor="@color/colorOrange"
+                android:id="@+id/sg10"
+                android:textSize="16sp"
+                android:text="•Guidelines for Stand Alone Institutions"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:clickable="true"/>
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:textColor="@color/colorOrange"
+                android:id="@+id/sg11"
+                android:textSize="16sp"
+                android:text="•Guidelines for Other State Coordinating Agency"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:clickable="true"/>
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:textColor="@color/colorOrange"
+                android:id="@+id/sg12"
+                android:textSize="16sp"
+                android:text="•Guidelines to fill large DCF-I"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:textColor="@color/colorOrange"
+                android:id="@+id/sg13"
+                android:textSize="16sp"
+                android:text="•Guidelines for correcting Inconsistency"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:id="@+id/sg14"
+                android:paddingLeft="8dp"
+                android:textColor="@color/colorOrange"
+                android:textSize="16sp"
+                android:text="•New Scheme HESPIS"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:textColor="@color/colorOrange"
+                android:id="@+id/sg15"
+                android:textSize="16sp"
+                android:text="•Remuneration Norm AISHE"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:textColor="@color/colorOrange"
+                android:id="@+id/sg16"
+                android:textSize="16sp"
+                android:text="•Scrutiny Programme AISHE"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:textColor="@color/colorOrange"
+                android:textSize="16sp"
+                android:text="•Remuneration Troubleshooting Manual"
+                android:layout_gravity="left"
+                android:id="@+id/sg17"
+                android:layout_marginTop="10dp"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:textColor="@color/colorOrange"
+                android:id="@+id/sg18"
+                android:textSize="16sp"
+                android:text="•Guidelines for Data User Registration"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:textColor="@color/colorOrange"
+                android:id="@+id/sg19"
+                android:textSize="16sp"
+                android:text="•Details of Reports available for Data User"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:textColor="@color/colorOrange"
+                android:id="@+id/sg20"
+                android:textSize="16sp"
+                android:text="•Instruction Manual 2010-11"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:clickable="true"/>
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:textColor="@color/colorOrange"
+                android:id="@+id/sg21"
+                android:textSize="16sp"
+                android:text="•Instruction Manual 2011-12 and 2012-13"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/colorOrange"
+                android:textSize="16sp"
+                android:text="•Instruction Manual-Other minority(DCF-IV)"
+                android:id="@+id/sg22"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:clickable="true"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

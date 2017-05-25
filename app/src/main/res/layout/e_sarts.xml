@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:text="@string/eSARTS"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_height="wrap_content"
+            />
+        <TableLayout
+            android:id="@+id/table_comp"
+            android:textColor="@color/colorBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TableRow
+            android:id="@+id/sfHead"
+            android:textColor="@color/colorBlack"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:text="Scholarship/Fellowship Name"
+                android:textColor="@color/colorBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:layout_margin="10dp"
+                android:layout_column="1" />
+
+        </TableRow>
+            <TableRow
+                android:id="@+id/sf1"
+                android:textColor="@color/colorBlack"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:id="@+id/tx1"
+                    android:text="@string/sf1"
+                    android:textColor="@color/aqua"
+                    android:layout_width="wrap_content"
+                    android:textSize="16dp"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"
+                    android:layout_column="1" />
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/sf2"
+                android:textColor="@color/aqua"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:id="@+id/tx2"
+                    android:text="@string/sf2"
+                    android:textColor="@color/aqua"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:layout_margin="10dp"
+                    android:layout_column="1" />
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/sf3"
+                android:textColor="@color/aqua"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:id="@+id/tx3"
+                    android:text="@string/sf3"
+                    android:textColor="@color/aqua"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:clickable="true"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"
+                    android:layout_column="1" />
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/sf4"
+                android:textColor="@color/colorBlack"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:id="@+id/tx4"
+                    android:text="@string/sf4"
+                    android:textColor="@color/aqua"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:layout_margin="10dp"
+                    android:layout_column="1" />
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/sf5"
+                android:textColor="@color/colorBlack"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:id="@+id/tx5"
+                    android:text="@string/sf5"
+                    android:textColor="@color/aqua"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:clickable="true"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"
+                    android:layout_column="1" />
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/sf6"
+                android:textColor="@color/colorBlack"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:id="@+id/tx6"
+                    android:text="@string/sf6"
+                    android:textColor="@color/aqua"
+                    android:layout_width="match_parent"
+                    android:textSize="16dp"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"
+                    android:layout_column="1" />
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/sf7"
+                android:textColor="@color/colorBlack"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:id="@+id/tx7"
+                    android:text="@string/sf7"
+                    android:textColor="@color/aqua"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:clickable="true"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"
+                    android:layout_column="1" />
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/sf8"
+                android:textColor="@color/colorBlack"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:id="@+id/tx8"
+                    android:text="@string/sf8"
+                    android:textColor="@color/aqua"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:clickable="true"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"
+                    android:layout_column="1" />
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/sf9"
+                android:textColor="@color/colorBlack"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:id="@+id/tx9"
+                    android:text="@string/sf9"
+                    android:textColor="@color/aqua"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:clickable="true"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"
+                    android:layout_column="1" />
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/sf10"
+                android:textColor="@color/colorBlack"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:id="@+id/tx10"
+                    android:text="@string/sf10"
+                    android:textColor="@color/aqua"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:clickable="true"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"
+                    android:layout_column="1" />
+
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

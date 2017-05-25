@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@android:color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent" android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin" android:background="@android:color/white">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:text="Methodology of Ranking"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:id="@+id/methedo"
+                android:textColor="@color/colorAccent"/>
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="PROCESS"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:id="@+id/pro"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:text="@string/methodoly"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:text="The process for assessment and accreditation broadly consists of:"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingLeft="8dp"
+                android:textSize="16sp"
+                android:text="•Preparation of Self-study Report (SSR), and uploading on the institution website prior to submission of LOI."
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingLeft="8dp"
+                android:textSize="16sp"
+                android:text="•On-line submission of the Letter of Intent (LOI)."
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingLeft="8dp"
+                android:textSize="16sp"
+                android:text="•On-line submission of Institutional Eligibility for Quality Assessment (IEQA) for applicable institutions."
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingLeft="8dp"
+                android:textSize="16sp"
+                android:text="•Submission of Hard Copies of SSR"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp" />
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingLeft="8dp"
+                android:textSize="16sp"
+                android:text="•Peer team visit to the institution."
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingLeft="8dp"
+                android:textSize="16sp"
+                android:text="•Final decision by NAAC."
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp" />              //end of process
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="UNITS OF ASSESSMENT"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:id="@+id/units"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:text="@string/methodunits"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:text="Institutional Accreditation:"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingLeft="8dp"
+                android:textSize="16sp"
+                android:text="•University: University Central Governance Structure along with all the Under Graduate and Post Graduate Departments."
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingLeft="8dp"
+                android:textSize="16sp"
+                android:text="•College: Any College - affiliated, constituent or autonomous with all its departments of studies.
+"               android:layout_gravity="left"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:text="Department Accreditation:"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:textSize="16sp"
+                android:text="Any department/School/Centre of the University."
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingLeft="8dp"
+                android:textSize="16sp"
+                android:text="Presently, NAAC is undertaking only institutional accreditation. Experts groups have been constituted to work on Program Accreditation."
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp" />      //end of units
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="CRITERIA FOR ASSESSMENT"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:id="@+id/criteria"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:text="@string/methodcriteria"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp" />
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingLeft="8dp"
+                android:textSize="16sp"
+                android:text="•Curricular Aspects"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingLeft="8dp"
+                android:textSize="16sp"
+                android:text="•Teaching-Learning and Evaluation"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingLeft="8dp"
+                android:textSize="16sp"
+                android:text="•Research, Consultancy and Extension"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingLeft="8dp"
+                android:textSize="16sp"
+                android:text="•Infrastructure and Learning Resources"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp" />
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingLeft="8dp"
+                android:textSize="16sp"
+                android:text="•Student Support and Progression"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingLeft="8dp"
+                android:textSize="16sp"
+                android:text="•Governance, Leadership and Management"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingLeft="8dp"
+                android:textSize="16sp"
+                android:text="•Innovations and Best Practices"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp" />
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:text="Key Aspects"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp" />
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="16sp"
+                android:text="@string/methodcriteria2"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp" />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

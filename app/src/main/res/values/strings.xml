@@ -1,0 +1,197 @@
+<resources>
+    <string name="app_name">Edu-Info360</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    -<string name="text1">
+
+-<![CDATA[The National Educational Testing Bureau of University Grants Commission (UGC) conducts National Eligibility Test (NET) to determine eligibility for lectureship and for award of Junior Research Fellowship (JRF) for Indian nationals in order to ensure minimum standards for the entrants in the teaching profession and research. The Test is conducted in Humanities (including languages), Social Sciences, Forensic Science, Environmental Sciences, Computer Science and Applications and Electronic Science. The Council of Scientific and Industrial Research (CSIR) conducts the UGC-CSIR NET for other Science subjects, namely, Life Sciences, Physical Sciences, Chemical Sciences, Mathematical Sciences and Earth Atmospheric Ocean & Planetary Sciences jointly with the UGC. The tests are conducted twice in a year generally in the months of June and December. For candidates who desire to pursue research, the Junior Research Fellowship (JRF) is available for five years subject to fulfillment of certain conditions. UGC has allocated a number of fellowships to the universities for the candidates who qualify the test for JRF. The JRFs are awarded to the meritorious candidates from among the candidates qualifiying for eligibility for lectureship in the NET. JRFs are available only to the candidates who opt for it in their application forms. The test for Junior Research Fellowship is being conducted since 1984. The Government of India, through its notification dated 22nd July, 1988 entrusted the task of conducting the eligibility test for lectureship to UGC. Consequently, UGC conducted the first National Eligibility Test, common to both eligibility for Lectureship and Junior Research Fellowship in two parts, that is, in December 1989 and in March , 1990.]]>
+</string>
+
+    <string name="text2">UGC conducts NET twice a year, i.e., in the months of June and December. The notifications announcing the June and December examinations are published in the months of March and September respectively in the weekly journal of nation-wide circulation, viz, Employment News.</string>
+
+    <string name="text3">The result of June, UGC-NET is declared generally in the month of October. Similarly December, UGC-NET result is usually declared in the month of April. The UGC-NET results published in the Employment News are also available on UGC website.</string>
+
+
+    -<string name="text4">
+
+-<![CDATA[The NET in Major Science Subjects, viz., Chemical Sciences; Earth Atmospheric Ocean & Planetary Sciences; Life Sciences; Mathematical Sciences and Physical Sciences is conducted jointly with the Council of Scientific and Industrial Research (CSIR), New Delhi. The concerned notifications are issued separately by CSIR.]]>
+</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="category">Choose a category</string>
+    <string-array name="user_category">
+        <item>Select a category</item>
+        <item>Student</item>
+        <item>Institute</item>
+        <item>Teacher</item>
+    </string-array>
+    <string name="libraryServices">Library Services</string>
+
+    <string name="downHU">Download Hindi Unicode</string>
+
+    <string name="DELNET">DELNET</string>
+
+    <string name="INDEST">INDEST</string>
+
+    <string name="INDEST2">Institutes Under INDEST-AICTE Consortium</string>
+
+    <string name="IET">IET Digital Library</string>
+
+    <string name="INFLIBNET">INFLIBNET</string>
+
+    <string name="NPTEL">NPTEL</string>
+
+    <string name="projectFactory">Project Factory</string>
+
+    <string name="authorWorkshop">IEEE Author Workshops Registration</string>
+
+    <string name="instID">Get Institute ID</string>
+
+    <string name="studID">Get Student ID</string>
+
+    <string name="createProfile">Create Student Profile</string>
+
+    <string name="upload">Upload Project</string>
+
+    <string name="download">Download Project</string>
+
+    <string name="help">Help File for Project Factory</string>
+
+    <string name="publish">How to publish a Technical Paper</string>
+
+    <string name="vocEdu">Vocational Education</string>
+
+    <string name="vocEduText"> Vocational education or Vocational Education and Training (VET), also called Career and Technical Education (CTE), prepares learners for jobs that are based in manual or practical activities, traditionally non-academic and totally related to a specific trade, occupation or vocation, hence the term, in which the learner participates. It is sometimes referred to as technical education, as the learner directly develops expertise in a particular group of techniques or technology. Generally, vocation and career are used interchangeably. Vocational education might be classified as teaching procedural knowledge. This may be contrasted with declarative knowledge, as used in education in a usually broader scientific field, which might concentrate on theory and abstract conceptual knowledge, characteristic of tertiary education.\n\n Vocational education can be at the secondary or post-secondary level and can interact with the apprenticeship system. Increasingly, vocational education can be recognised in terms of recognition of prior learning and partial academic credit towards tertiary education (e.g., at a university) as credit; however, it is rarely considered in its own form to fall under the traditional definition of a higher education.\n\n Up until the end of the twentieth century, vocational education focused on specific trades such as for example, an automobile mechanic or welder, and was therefore associated with the activities of lower social classes. As a consequence, it attracted a level of stigma. Vocational education is related to the age-old apprenticeship system of learning.\n\n However, as the labor market becomes more specialized and economies demand higher levels of skill, governments and businesses are increasingly investing in the future of vocational education through publicly funded training organizations and subsidized apprenticeship or traineeship initiatives for businesses. At the post-secondary level vocational education is typically provided by an institute of technology, or by a local community college.\n\n </string>
+
+    <string name="notify">NVEQF Notification MHRD GOI </string>
+
+    <string name="vocImpLink">Important Links of Vocational Education </string>
+
+    <string name="curriculum1">Model Curriculum, Framework and Content under NVEQF</string>
+
+    <string name="curriculum2">Model Curriculum, Framework and Content bridging Modular Employability Skills of Ministry of Labour and Employment under NVEQF</string>
+
+    <string name="approvalProcess">Approval Process Handbook 2013-2014 for Vocational Education and Community Colleges</string>
+
+    <string name="approvedInst">List of Approved Institutions and SKPs</string>
+
+    <string name="NEEM">Registration for NEEM agents</string>
+
+    <string name="dbt">Direct Benifit Transfer (DBT)</string>
+
+    <string name="dbt1">1.DBT for AICTE Approved Institutions</string>
+
+    <string name="dbt2">2.DBT for University Departments and Constituent Colleges</string>
+
+    <string name="pgScholarship">PG Scholarship GATE/GPAT/DBT</string>
+
+    <string name="textStudPG"> Process for Students to Register on the portal with GATE Score and Bank Account details </string>
+
+    <string name="actionsStud">• Actions to be taken by Students and Institutes</string>
+
+    <string name="reqStud">• System Requirements for Students</string>
+
+    <string name="instructStud">• Instructions for Students</string>
+
+    <string name="step1">• Step1 \: Get Institute Id</string>
+
+    <string name="step2">• Step2 \: Get PG Student ID</string>
+
+    <string name="step3">• Step3 \: PG Scholarship GATE/GPAT</string>
+
+    <string name="notifyDBT2">Notification Regarding GATE/GPAT Scholarships</string>
+
+    <string name="eSARTS">e-Scholarship-Fellowship Award Registration Tracking System</string>
+
+    <string name="sf1">1. Emeritus Fellowship</string>
+
+    <string name="sf2"> 2. Dr. S. Radharkrishnan Post Doctoral Fellowship In Humanities And Social Sciences </string>
+
+    <string name="sf3"> 3. Post Doctoral Fellowship to Women Candidates </string>
+
+    <string name="sf4"> 4. Post Doctoral Fellowship to SC/ST Candidates </string>
+
+    <string name="sf5"> 5. Swami Vivekananda Single Girl Child Scholarship for Research in Social Sciences </string>
+
+    <string name="sf6"> 6. Rajiv Gandhi National Fellowship for SC Candidate </string>
+
+    <string name="sf7"> 7. National Fellowship for Higher Education of ST Students </string>
+
+    <string name="sf8"> 8. National Fellowship for Persons with Disabilities </string>
+
+    <string name="sf9"> 9. Maulana Azad National Fellowship For Minority Students </string>
+
+    <string name="sf10"> 10. National Fellowship for OBC Candidate </string>
+
+    <string name="headScholarship">Scholarships</string>
+
+    <string name="vidyaLaxmi">Vidya Laxmi Portal</string>
+
+    <string name="general"> General Scholarships </string>
+
+    <string name="DST"> DST Scholarships and Awards </string>
+
+    <string name="disable"> Scholarships for Students with Special Abilities </string>
+
+    <string name="sriLanka"> Sri Lanka Presidential Scholarships for PG Education </string>
+    <string name="antirag">F.No.37-3/Legal/AICTE/2009 – In exercise of the powers conferred under Section 23 read with Section 10 (b), (g), (p) and (q) of AICTE Act, 1987, the All India Council for Technical Education, hereby makes the following Regulations:-</string>
+
+<string name="antirag2">These Regulations may be called the All India Council for Technical Education (Prevention and Prohibition of Ragging in Technical Institutions, Universities including Deemed to be Universities imparting technical education) Regulations 2009
+        They shall come into force on the date of the notification.</string>
+
+    <string name="antirag3">In view of the directions of the Hon’ble Supreme Court in SLP No. 24295 of 2006 dated 16-05-2007 and in Civil Appeal number 887 of 2009, dated 08-05-2009 to prohibit, prevent and eliminate the scourge of ragging including any conduct by any student or students whether by words spoken or written or by an act which has the effect of teasing, treating or handling with rudeness a fresher or any other student, or indulging in rowdy or undisciplined activities by any student or students which causes or is likely to cause annoyance, hardship or psychological harm or to raise fear or apprehension thereof in any fresher or any other student or asking any student to do any act which such student will not in the ordinary course do and which has the effect of causing or generating a sense of shame, or torment or embarrassment so as to adversely affect the physique or psyche of such fresher or any other student, with or without an intent to derive a sadistic pleasure or showing off power, authority or superiority by a student over any fresher or any other student, in all higher education institutions in the country, and thereby, to provide for the healthy development, physically and psychologically, of all students, the All India Council for Technical Education,(AICTE) brings forth these Regulations.</string>
+
+    <string name="list1">NVEQF list of AICTE approved Institutes</string>
+
+    <string name="list2">NVEQF list of Other approved Institutes</string>
+
+    <string name="list3">NVEQF list of approved Skill Knowledge Providers (SKP)</string>
+
+    <string name="NEEM1">Registration for NEEM agents</string>
+
+    <string name="NEEM2">Help file for NEEM Registration</string>
+
+    <string name="NEEM3">NEEM Agents Approved by AICTE</string>
+    <string name="aboutnaac">The NATIONAL ASSESSMENT AND ACCREDITATION COUNCIL (NAAC) is an autonomous body established by the University Grants Commission (UGC) of India to assess and accredit institutions of higher education in the country. It is an outcome of the recommendations of the National Policy in Education (1986) which laid special emphasis on upholding the quality of higher education in India. To address the issues of quality, the National Policy on Education (1986) and the Plan of Action (POA-1992) advocated the establishment of an independent national accreditation body. Consequently, the NAAC was established in 1994 with its headquarters at Bangalore.</string>
+    <string name="methodunits">NAAC instrument is developed to assess and grade institutions of higher education through a three-step-process and make the outcome as objective as possible. Though the methodology and the broad framework of the instrument is similar, there is a slight difference in the focus of the instrument depending on the unit of Accreditation, i.e., Affiliated / Constituent colleges / Autonomous colleges / Universities / Health Science / Teacher / Physical Education.</string>
+
+    <string name="methodcriteria">NAAC has identified the following seven criteria to serve as the basis of its assessment procedures:</string>
+
+    <string name="methodcriteria2">The Seven Criteria is further divided into "Key Aspects”. Certain important Assessment Indicators are identified under the Key Aspects and the Seven Criteria which encompasses them, as probes or leads for the Peer Team members to capture the micro-level quality parameters. These indicators facilitate the computing of the Key Aspect-wise Grade Points (KA-GPS) and the Criterion-wise Grade Point Averages (CR-GPAs) in order to arrive at the quality status of the institution.</string>
+    <string name="methodoly">NAAC process of assessment is towards holistic, systematic, objective, data-based, transparent and shared experience for institutional improvement.</string>
+    <string name="aicte1">All India Council for Technical Education (AICTE) was set-up in November 1945 as a national level Apex Advisory Body to conduct survey on the facilities on technical education and to promote development in the country in a coordinated and integrated manner. And to ensure the same, as stipulated in, the National Policy of Education (1986), AICTE be vested with statutory authority for planning, formulation and maintenance of norms and standards, quality assurance through accreditation, funding in priority areas, monitoring and evaluation, maintaining parity of certification and awards and ensuring coordinated and integrated development and management of technical education in the country.</string>
+
+    <string name="aicte2">Technical education in India contributes a major share to the overall education system and plays a vital role in the social and economic development of our nation. In India, technical education is imparted at various levels such as: craftsmanship, diploma, degree, post-graduate and research in specialized fields, catering to various aspects of technological development and economic progress. </string>
+
+    <string name="aicte3">The purview of AICTE (the Council) covers programmes of technical education including training and research in Engineering, Technology, Architecture, Town Planning, Management, Pharmacy, Applied Arts and Crafts, Hotel Management and Catering Technology etc. at different levels. </string>
+
+    <string name="aicte4">The Organization Structure of AICTE comprises Five Bureaus as under:</string>
+
+    <string name="aicte5">1. Approval Bureau\n 2. Administration Bureau\n 3. Finance Bureau \n 4. RIFD Bureau\n 5. Policy and Academic Planning Bureau </string>
+    <string name="aboutaishe">To portray the status of higher education in the country, Ministry of Human Resource Development has endeavoured to conduct an annual web-based All India Survey on Higher Education (AISHE) since 2010-11. The survey covers all the Institutions in the country engaged in imparting of higher education. Data is being collected on several parameters such as teachers, student enrolment, programmes, examination results, education finance, infrastructure. Indicators of educational development such as Institution Density, Gross Enrolment Ratio, Pupil-teacher ratio, Gender Parity Index, Per Student Expenditure will also be calculated from the data collected through AISHE. These are useful in making informed policy decisions and research for development of education sector.</string>
+    <string name="aboutnirf">The National Institutional Ranking Framework (NIRF) was approved by the MHRD and launched by Honourable Minister of Human Resource Development on 29th September 2015.</string>
+
+    <string name="aboutnirf1">This framework outlines a methodology to rank institutions across the country. The methodology draws from the overall recommendations broad understanding arrived at by a Core Committee set up by MHRD, to identify the broad parameters for ranking various universities and institutions. The parameters broadly cover “Teaching, Learning and Resources,” “Research and Professional Practices,” “Graduation Outcomes,” “Outreach and Inclusivity,” and “Perception”.</string>
+
+    <string name="aboutnirf2">For India Rankings – 2017, the main ranking parameters remain the same. However, there are a few significant changes in a few sub-parameters. Also, this year every large institution will be given a common overall rank as well as a discipline specific rank as applicable. Details are in the Ranking Document available at </string>
+
+    <string name="aboutnirf3">https://www.nirfindia.org/Docs/Ranking_Methodology_And_Metrics_2017.pdf</string>
+    <string name="ugc1">In 1952, the Union Government decided that all cases pertaining to the allocation of grants-in-aid from public funds to the Central Universities and other Universities and Institutions of higher learning might be referred to the University Grants Commission. Consequently, the University Grants Commission (UGC) was formally inaugurated by late Shri Maulana Abul Kalam Azad, the then Minister of Education, Natural Resources and Scientific Research on 28 December 1953.</string>
+
+    <string name="ugc2">The UGC, however, was formally established only in November 1956 as a statutory body of the Government of India through an Act of Parliament for the coordination, determination and maintenance of standards of university education in India. In order to ensure effective region-wise coverage throughout the country, the UGC has decentralised its operations by setting up six regional centres at Pune, Hyderabad, Kolkata, Bhopal, Guwahati and Bangalore. The head office of the UGC is located at Bahadur Shah Zafar Marg in New Delhi, with two additional bureaus operating from 35, Feroze Shah Road and the South Campus of University of Delhi as well. </string>
+    <string name="facdevlink1">• Schedule of Orientation Programmes and Refresher Courses for Teachers to be Conducted by UGC-Academic Staff Colleges (UGC-ASCs) during 2011-2012. </string>
+
+    <string name="facdevlink2">• Refresher Course </string>
+
+    <string name="facdevlink3">• UGC Supported Orientation Programmes and Refresher Courses for Teachers to be Conducted By UGC Academic Staff Colleges (UGC ASCs) and UGC-Refresher Course Centres (UGC RCCs) During 2009 to 2010. </string>
+
+    <string name="facdevlink4">• Statement showing the orientation progarmmes,Principals Workshops and Referesher Courses recommended by the Expert Committee for Academic Staff Colleges for the Year 2009-2010. </string>
+
+    <string name="facdev2">• Besides, the UGC has also identified as many as 5 universities/institutions to organise and conduct refresher courses for faculty members in their chosen areas of specialization during 2008-2009.</string>
+
+    <string name="facdev1">• The University Grants Commission has been making proactive efforts to upgrade the knowledge and skills of faculty members in the institutions of higher education. For the purpose of organising orientation and refresher courses for in service faculty members, the UGC has established and funds a network of 66 Academic Staff Colleges across the country.</string>
+</resources>

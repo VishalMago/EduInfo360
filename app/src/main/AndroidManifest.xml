@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ace.vishal.edu_info360">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash" android:theme="@style/Theme.Transparent" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login">
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Forgetpas">
+        </activity>
+        <activity android:name=".Account">
+        </activity>
+        <activity android:name=".inst_signup">
+        </activity>
+        <activity android:name=".student_signup">
+        </activity>
+        <activity android:name=".UpdateDetail"
+            android:label="Updates">
+
+        </activity>
+        <activity android:name=".Net_about"
+            android:label="About NET"
+            android:parentActivityName=".HomeActivity"
+            />
+
+        <activity android:name=".Net_Syllabus"
+            android:label="NET Syllabus"
+            android:parentActivityName=".HomeActivity"
+            />
+
+        <activity android:name=".Net_Results"
+            android:label="Exam Results"
+            android:parentActivityName=".HomeActivity"
+            />
+        <activity android:name=".Search"
+            android:parentActivityName=".HomeActivity"
+            android:label="Search for a College">
+        </activity>
+        <activity android:name=".CollegeDetail"
+            android:label="College Detail"
+            android:parentActivityName=".Search">
+        </activity>
+
+        <activity android:name=".scholarshipStud"
+            android:label="Scholarships"
+            android:parentActivityName=".HomeActivity"
+            >
+
+        </activity>
+
+        <activity
+            android:name=".dbtScholarship"
+            android:label="DBT Scholarships"
+            android:parentActivityName=".scholarshipStud"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="General Scholarships"
+            android:parentActivityName=".scholarshipStud"
+            />
+        <activity
+            android:name=".eSARTS"
+            android:label="e-SARTS"
+            android:parentActivityName=".scholarshipStud">
+        </activity>
+        <activity
+            android:name=".antiragging"
+            android:parentActivityName=".HomeActivity"
+            android:label="Anti Ragging">
+
+        </activity>
+        <activity android:name=".VocationalEdu"
+                  android:label="Vocational Education"
+                  android:parentActivityName=".HomeActivity">
+        </activity>
+        <activity android:name=".vocEdu1"
+                  android:parentActivityName=".VocationalEdu"
+                  android:label="Important Links">
+        </activity>
+        <activity android:name=".vocEdu2"
+                  android:parentActivityName=".VocationalEdu"
+                  android:label="Model Curriculum">
+        </activity>
+        <activity android:name=".aishereports"
+                  android:label="AISHE Reports"
+                  android:parentActivityName=".HomeActivity">
+        </activity>
+        <activity android:name=".methodology"
+                  android:label="Methodology for Ranking"
+                  android:parentActivityName=".HomeActivity">
+        </activity>
+        <activity android:name=".dbtscholar"
+                  android:label="DBT Scholarship"
+                  android:parentActivityName=".HomeActivity">
+        </activity>
+        <activity android:name=".surveyguide"
+                  android:parentActivityName=".HomeActivity"
+                  android:label="Survey Guidelines">
+        </activity>
+        <activity android:name=".about_aicte"
+                  android:label="About AICTE"
+                  android:parentActivityName=".HomeActivity">
+        </activity>
+        <activity android:name=".ugcabout"
+                  android:label="About UGC"
+                  android:parentActivityName=".HomeActivity">
+        </activity>
+        <activity android:name=".AboutAishe"
+                  android:label="About AISHE"
+                  android:parentActivityName=".HomeActivity">
+        </activity>
+        <activity android:name=".AboutNaac"
+                  android:label="About NAAC"
+                  android:parentActivityName=".HomeActivity">
+        </activity>
+        <activity android:name=".AboutNirf"
+                  android:label="About NIRF"
+                  android:parentActivityName=".HomeActivity">
+        </activity>
+        <activity android:name=".RTI"
+                  android:label="RTI"
+                  android:parentActivityName=".HomeActivity">
+        </activity>
+        <activity android:name=".RTIWebView"
+                  android:label="RTI"
+                  android:parentActivityName=".RTI">
+        </activity>
+        <activity android:name=".FaceDev"
+                  android:label="Faculty Development"
+                  android:parentActivityName=".HomeActivity">
+        </activity>
+        <activity android:name=".facdev"
+                  android:label="Faculty Development"
+                  android:parentActivityName=".FaceDev">
+        </activity>
+        <activity android:name=".Parameters"
+                  android:label="Parameters of Teaching"
+                  android:parentActivityName=".FaceDev">
+
+        </activity>
+    </application>
+
+</manifest>
